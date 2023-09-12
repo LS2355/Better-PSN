@@ -1,0 +1,16 @@
+:root{
+    --color-1: rgb(171, 73, 106);
+    --color-2: rgb(2,2,2);
+    --color-background: rgb(86, 86, 86);
+    --color-navbar: rgb(43, 43, 43);
+}
+
+/* 
+---------------------------------------------
+Header / Navbar section
+--------------------------------------------- 
+*/
+
+header {
+  background-color: var(--color-navbar);
+}
