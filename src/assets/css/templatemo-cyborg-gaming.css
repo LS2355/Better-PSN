@@ -766,38 +766,7 @@ Header Style
   }
 }
 
-/* 
----------------------------------------------
-Banner Style
---------------------------------------------- 
-*/
 
-.main-banner {
-  background-image: url(../images/banner-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  min-height: 380px;
-  border-radius: 23px;
-  padding: 80px 60px;
-}
-
-.main-banner h6 {
-  font-size: 20px;
-  color: #fff;
-  font-weight: 400;
-  margin-bottom: 25px;
-}
-
-.main-banner h4 {
-  font-size: 45px;
-  text-transform: uppercase;
-  margin-bottom: 25px;
-}
-
-.main-banner h4 em {
-  font-style: normal;
-  color: #ec6090;
-}
 
 /* 
 ---------------------------------------------
@@ -1390,7 +1359,9 @@ Game Details Style
 .game-details .main-border-button a {
   text-align: center;
   width: 100%;
-} 
+}
+
+
 
 /* 
 ---------------------------------------------
