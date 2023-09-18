@@ -9,6 +9,6 @@ import './assets/css/owl.css'
 import './assets/css/templatemo-cyborg-gaming.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-
+    
     <App />
 )

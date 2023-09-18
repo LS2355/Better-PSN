@@ -42,11 +42,11 @@ function Details () {
             <div className="col-lg-4">
               <div className="info">
                 <div className="left">
-                  <h4>Fortnite</h4>
-                  <span>Sandbox</span>
+                  <h4>Trophies</h4>
+                  <span>your level</span>
                 </div>
                 <ul>
-                  <li><i className="fa fa-star"></i> 4.8</li>
+                  <li><i className="fa fa-star"></i></li>
                   <li><i className="fa fa-download"></i> 2.3M</li>
                 </ul>
               </div>

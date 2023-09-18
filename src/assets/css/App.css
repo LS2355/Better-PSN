@@ -364,3 +364,21 @@ Game Details Style
 .details__status-other{
   background-color: rgb(221, 125, 0);
 }
+
+/* 
+---------------------------------------------
+FriendsList
+--------------------------------------------- 
+*/
+
+.friendsList__status{
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+}
+.friendsList__expand-container{
+  display: flex;
+  justify-content: center;
+
+  transform: translate(0, 50%);
+}
