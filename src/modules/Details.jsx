@@ -1,4 +1,4 @@
-import React from "react"; 
+
 
 function Details () {
   return(
@@ -9,7 +9,7 @@ function Details () {
       </div>
       <div className="col-lg-11 center-content">
         <div className="content" id="details__shadowbox">
-          <div className="row">
+          <div className="row">  
 
             <div className="col-lg-4">
               <div className="info text-center">

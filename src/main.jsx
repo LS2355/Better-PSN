@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './assets/css/vendor/bootstrap/css/bootstrap.min.css'
@@ -7,8 +7,13 @@ import './assets/css/flex-slider.css'
 import './assets/css/fontawesome.css'
 import './assets/css/owl.css'
 import './assets/css/templatemo-cyborg-gaming.css'
+// import '../../playstation.js'
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    
+
+  <StrictMode>
     <App />
+  </StrictMode>
 )

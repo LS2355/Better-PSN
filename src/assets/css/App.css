@@ -120,6 +120,21 @@ section {
   text-decoration: underline;
 }
 
+
+/* 
+---------------------------------------------
+NAVBAR / HEADER
+--------------------------------------------- 
+*/
+
+
+
+
+
+
+
+
+
 /* 
 ---------------------------------------------
 Featured Friends Style
@@ -140,14 +155,24 @@ Featured Friends Style
   padding: 30px;
   background-color: #1f2122;
   border-radius: 23px;
+
 }
 
 .most-popular .item {
   background-color: #27292a;
   padding: 30px 15px;
   border-radius: 23px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; 
   overflow: hidden;
+  height: 90%;
+  position: relative;
+  transition: all 400ms;
+}
+
+.item:hover{
+  background-color: #383838;
+  transform: scale(1.1);
+  border-radius: 35px;
 }
 
 .most-popular .item img {
@@ -202,6 +227,18 @@ Featured Friends Style
   box-shadow:inset 1px 0px #27292a,inset -1px 0px #27292a, inset 0 -3px var(--other-status);
 }
 
+.featured-friends__primary{
+  color: white;
+  font-size: xx-large;
+}
+
+.featured-friends__PS-plus{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  transform: translate(-50,-50%);
+ 
+}
 /* 
 ---------------------------------------------
 Banner Style
@@ -214,7 +251,6 @@ Banner Style
     background-size: cover;
     min-height: 380px;
     border-radius: 23px;
-    padding: 80px 60px;
   }
   
   .main-banner h6 {
@@ -233,6 +269,20 @@ Banner Style
   .main-banner h4 em {
     font-style: normal;
     color: #ec6090;
+  }
+
+  .main-banner__tint{
+    background-color: #1a131d7c;
+    width: 100%;
+    height: 100%;
+    padding: 80px 60px;
+    border-radius: 23px;
+    transition: all 400ms;
+
+    z-index: 12;
+  }
+  .main-banner__tint:hover{
+    background-color: rgba(0, 0, 0, 0);
   }
 
 /* 
@@ -293,7 +343,7 @@ Game Details Style
   
   .game-details .content .info ul li:last-child i {
     color: #ec6090;
-  }
+  } 
   
   .game-details .main-border-button {
     margin-top: 35px;
@@ -312,9 +362,6 @@ Game Details Style
     font-size: 45px;
   }
 
-  .details__status-container{
-    
-  }
 
   .details__status{
     width: 25px;
@@ -361,9 +408,7 @@ Game Details Style
   background-color: gray;
 }
 
-.details__status-other{
-  background-color: rgb(221, 125, 0);
-}
+
 
 /* 
 ---------------------------------------------
@@ -372,9 +417,10 @@ FriendsList
 */
 
 .friendsList__status{
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   border-radius: 100%;
+  /* border: 1px solid green; */
 }
 .friendsList__expand-container{
   display: flex;
@@ -382,3 +428,174 @@ FriendsList
 
   transform: translate(0, 50%);
 }
+.friendsList__gameImage{
+  width: 65px;
+  height: 65px;
+  border-radius: 12px;
+}
+.friendsList__primary{
+  color: white;
+  font-size: large;
+}
+.friendsList__secondary{
+  color: gray;
+  font-size: small;
+}
+
+.friendslist__image{
+	max-width: 80px; 
+	border-radius: 23px;
+}
+
+.test__gn{
+
+
+}
+
+
+/* 
+---------------------------------------------
+Popup
+--------------------------------------------- 
+*/
+
+.popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(26, 26, 26, 0.336);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 55;
+}
+.popup__inner{
+position: relative;
+padding: 32px;
+width: 100%;
+max-width: 740px;
+background-color: #1f2122;
+box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.527);
+border-radius: 23px;
+}
+.popup__item{
+  padding: 15px;
+  background-color: #27292a;
+  border-radius: 23px;
+}
+.popup__left-section{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.popup__right-section{
+  width: 50%;
+  height: 100%;
+  float: right;
+  display: flex;
+  justify-content: right;
+}
+
+.popup__close-btn{
+position: absolute;
+top: 16px;
+right: 16px;
+width: 20px;
+height: 20px;
+
+transition: all 400ms;
+}
+.popup__close-btn:hover{
+transform: scale(1.2);  
+}
+
+.popup__PFP{
+  width: 120px;
+  height: 120px;
+  border-radius: 23px;
+  margin-bottom: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.popup__primary{
+color: #e75e8d;
+}
+.popup__secondary{
+  color: #666;
+}
+.popup__status{
+  position: absolute;
+  width: 17px;
+  height: 17px;  
+  border-radius: 100%;
+
+  top: 135px;
+  left: 135px;
+
+  transform: translate(-50%, -50%);
+}
+.popup__status-online{
+  background-color: var(--online-status);
+}
+.popup__status-offline{
+  background-color: var(--offline-status);
+}
+.popup__game-image{
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+}
+.popup__game-or-offline{
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.418);
+
+}
+.popup__game-item{
+  background-color: #27292a;
+  padding: 15px;
+  margin: 10px;
+  display: grid;
+  place-items: center;
+  border-radius: 23px;
+}
+.popup__ps-plus{
+  margin-left: 15px;
+}
+.popup__platform-container{
+  margin: 10px 0 0 20px;
+}
+.popup__platform-span{
+  text-transform: capitalize;
+  color: #e75e8d;
+}
+.popup__trophy-container{
+  padding-top: 15px;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+.popup__trophy-image{
+  width: 55px;
+  height: 55px;
+  float: right;
+  justify-self: right;
+}
+.popup__trophy-image-wrapper{
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+.popup__trophy-text{
+  position: relative;
+  bottom: 0;
+  right: 0;
+  color:white;
+}
+.popup__trophy-text-wrapper{
+  display: grid;
+  place-items: center;
+} 

@@ -1,6 +1,7 @@
 {
   "name": "better-friends",
   "private": true,
+  "proxy": "https://ca.account.sony.com",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,10 +11,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.5.0",
+    "moment": "^2.29.4",
     "psn-api": "^2.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.66.1"
+    "sass": "^1.66.1",
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

@@ -14,3 +14,7 @@ Header / Navbar section
 header {
   background-color: var(--color-navbar);
 }
+
+.top-index{
+  z-index: 10;
+}

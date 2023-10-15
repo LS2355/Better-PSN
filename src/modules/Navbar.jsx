@@ -10,7 +10,8 @@ function Navbar () {
                   <nav className="main-nav">
                       {/* Logo */}
                       <a href="index.html" className="logo">
-                          <img src="assets/images/logo.png" alt="" />
+                        <h1>Better PSN</h1>
+                          {/* <img src="assets/images/logo.png" alt="" /> */}
                       </a>
 
                       {/* Search Bar */}
@@ -22,11 +23,7 @@ function Navbar () {
                       </div>
                       {/* Menu */}
                       <ul className="nav">
-                          <li><a href="index.html" className="active">Home</a></li>
-                          <li><a href="browse.html">Browse</a></li>
-                          <li><a href="details.html">Details</a></li>
-                          <li><a href="streams.html">Streams</a></li>
-                          <li><a href="profile.html">Profile <img src="assets/images/profile-header.jpg" alt="User PFP" /></a></li>
+                          <li><a href="profile.html">Profile <img src="http://static-resource.np.community.playstation.net/avatar/3RD/30000.png" alt="User PFP" /></a></li>
                       </ul>   
                       <a className='menu-trigger'>
                           <span>Menu</span>
