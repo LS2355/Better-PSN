@@ -18,15 +18,17 @@
     <p>I do not store this info (i don't care about your info)</p>
     
 <h1>install and run</h1>
-    <ol>download ZIP or clone </ol>
-    <ol>cd into client folder</ol>
-    <ol>install dependencies</ol>
-    <ol>cd out</ol>
-    <ol>cd into server folder</ol>
-    <ol>install depandancies</ol>
-    <ol>go back into the server file and run it (npm start)</ol>
-    <ol>creat new console</ol>
-    <ol>go into client folder and run it (npm run dev)</ol>
+<ol>
+    <li>download ZIP or clone </li>
+    <li>cd into client folder</li>
+    <li>install dependencies</li>
+    <li>cd out</li>
+    <li>cd into server folder</li>
+    <li>install depandancies</li>
+    <li>go back into the server file and run it (npm start)</li>
+    <li>creat new console</li>
+    <li>go into client folder and run it (npm run dev)</li>
+</ol>
 
 <h1>tech stack</h1>
     <ul>
