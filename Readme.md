@@ -5,7 +5,7 @@
 <ol>
     <li>view PSN friends online status<\li>
     <li>view friend personal info<\li>
-        <p>if they share it with you<\p>
+        if they share it with you
     <li>view friend current activity (games)<\li>
     <li>view friend account trophie level<\li>
     <li>view last online status<\li>
