@@ -1,0 +1,89 @@
+@media (max-width: 767px) {
+    body .page-content {
+      padding: 0px 30px;
+    }
+    .main-banner {
+      text-align: center;
+    }
+    .main-banner h4 {
+      font-size: 35px;
+    }
+    .gaming-library .item ul li,
+    .gaming-library .item ul li:first-child,
+    .gaming-library .item ul li:last-child {
+      width: 100% !important;
+      text-align: center !important;
+    }
+    .gaming-library .item ul li {
+      margin-top: 30px;
+    }
+    .top-downloaded ul li .download i {
+      top: 20px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+    .top-downloaded ul li img {
+      margin-right: 10px;
+    }
+    .top-downloaded ul li span {
+      font-size: 14px;
+    }
+    .top-streamers ul li .main-button {
+      float: none;
+      margin-top: 10px;
+    }
+    .top-streamers ul li .main-button a {
+      width: 100%;
+      text-align: center;
+    }
+    .top-streamers,
+    .top-downloaded {
+      max-height: 100%;
+      min-height: 100%;
+    }
+    .most-popular .item .inner-item {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .background-header {
+    display: inline-block;
+    }
+    .header-area .main-nav #search {
+      display: none;
+    }
+    .heading-section h4 {
+      font-size: 20px;
+    }
+    .gaming-library .item ul li {
+      width: 48% !important;
+    }
+    .gaming-library .item ul li:last-child {
+      text-align: left;
+    }
+    .featured-games {
+      margin-bottom: 60px;
+    }
+    .start-stream .item {
+      margin: 15px 0px;
+    }
+    .feature-banner .thumb {
+      margin-top: 30px;
+    }
+    .main-profile .main-info {
+      margin: 45px 0px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .header-area .main-nav .nav li {
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+    .header-area .main-nav .logo {
+      margin-right: 30px;
+      border-right: none;
+    }
+  }

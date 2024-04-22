@@ -1,0 +1,177 @@
+//variables
+$online-status: rgb(53, 223, 53);
+$offline-status: grey;
+$other-status: rgb(221, 125, 0);
+$color-1: rgb(171, 73, 106);
+$color-1-light: #ec6090;
+$color-2: rgb(2,2,2);
+$color-background: rgb(86, 86, 86);
+$color-navbar: rgb(43, 43, 43);
+
+* {
+    box-sizing: border-box;
+  }
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #1e1e1e;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
+}
+
+body .page-content {
+  margin-top: 110px;
+  background-color: #27292a;
+  padding: 60px;
+  border-radius: 23px;
+}
+
+
+a {
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff;
+  font-weight: 700;
+}
+
+
+
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+p {
+  font-size: 15px;
+  color: #666;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+
+::selection {
+  background: #e75e8d;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #e75e8d;
+  color: #fff;
+}
+
+.main-button a {
+  font-size: 14px;
+  color: #fff;
+  background-color: #e75e8d;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+
+  &:hover{
+    background-color: #fff;
+    color: #e75e8d;    
+  }
+}
+
+.main-border-button a {
+  font-size: 14px;
+  color: #ec6090;
+  background-color: transparent;
+  border: 1px solid #ec6090;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+
+  &:hover{
+    border-color: #fff;
+    background-color: #fff;
+    color: #e75e8d;    
+  }
+}
+
+.border-no-active a {
+  border-color: #666;
+  color: #666;
+
+  &:hover{
+    border-color: #666;
+    color: #666;
+    background-color: transparent;    
+  }
+}
+section {
+  margin-top: 120px;
+}
+
+header {
+    background-color: $color-navbar;
+  }
+
+.heading-section h4 {
+  color: #ec6090;
+  font-size: 34px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.heading-section h4 em {
+  color: #fff;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+  
+  .top-index{
+    z-index: 10;
+  }
+
+  .center-text{
+    text-align: center
+  }
+
+
+
+
+
+/* 
+---------------------------------------------
+imports
+--------------------------------------------- 
+*/
+
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+
+//sass modules
+@import './sass/Banner';
+@import './sass/Navbar';
+@import './sass/Popup';
+@import './sass/FriendsList.scss';
+@import './sass/FriendsList-Featured.scss';
+@import './sass/Details.scss';
+@import './sass/ScreenSize.scss';
+@import './sass/Preloader.scss';
+@import './sass/Navbar-search.scss';
+@import './sass/login.scss';
+@import './sass/PersonalLoginInstructions.scss'

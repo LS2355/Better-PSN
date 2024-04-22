@@ -1,0 +1,129 @@
+.personal__container{
+  background-color: rgb(36, 36, 36);
+  width: 100vw;
+  height: 100vh;
+  padding: 8%;
+
+  display: grid;
+
+  overflow: hidden;
+}
+.personal__wrapper{
+  background-color: rgb(27, 27, 27);
+  padding: 5%;
+}
+
+.personal__wrapper > *{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.personal__title{
+text-align: center;
+margin-bottom: 30px;
+
+font-size: 50px;
+}
+.personal__subheading{
+  text-align: center;
+  margin-bottom: 120px;
+  font-size: larger;
+  color: rgb(207, 207, 207);
+}
+.personal__inst{
+
+}
+.personal__inst-step{
+  margin: 30px 30px;
+  line-height: 40px;
+  
+  
+
+}
+.personal__inst-step-number{
+  font-size: large;
+  font-weight: bold;
+  color: $color-1-light;
+}
+.personal__inst-step-directions{
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+.personal__inst-step-link{
+  color: rgb(163, 163, 163);
+  padding: 3px 9px;
+  background-color: rgb(24, 24, 24);
+  border-radius: 9px;
+  float: right;
+
+  transition: all 400ms;
+  &:hover{
+    color: rgb(255, 255, 255);
+  }
+}
+.personal__inst-step-example{
+  background-color: rgba(54, 54, 54, 0.575);
+  justify-content: center;
+  min-width: 50%;
+  margin: 0px auto;
+  text-align: center;
+  color: #0d6efd;
+
+}
+.personal__inst-step-input{
+  margin-top: 60px;
+  width: 60%;
+  background-color: black;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  color: white;
+
+  animation: blinkingInput 4s linear 8s infinite ;
+
+}
+
+#npsso-form{
+  width: 100%;
+  text-align: center;
+}
+
+#npsso-submit{
+  margin-left: 50px ;
+  border-radius: 12px;
+  padding: 0px 14px;
+
+  background-color: rgba(0, 0, 0, 0.644);
+  color: rgb(160, 160, 160);
+  border: none;
+  transition: all 400ms;
+  &:hover{
+    background-color: $color-1-light;
+    color:white
+
+  }
+
+}
+
+.disclaimer{
+  font-size: small;
+  font-weight: bold;
+  color: rgb(102, 102, 102);
+  letter-spacing: normal;
+  text-align: center;
+}
+
+@keyframes blinkingInput {
+  0%{
+    border-color: white;
+  }
+  50%{
+    border-color: black;
+  }
+  100%{
+    border-color: white;
+  }
+
+}
