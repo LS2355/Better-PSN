@@ -5,7 +5,7 @@ this file will get all friend data using "psn-api" -npm
   -"done all that is left to add is the refresh token
   )"
 */
-const { getProfileFromUserName,  exchangeCodeForAccessToken, exchangeNpssoForCode, getUserFriendsAccountIds, getProfileFromAccountId, getBasicPresence} = require('psn-api');
+const { getProfileFromUserName,  exchangeCodeForAccessToken, exchangeNpssoForCode, getUserFriendsAccountIds, getProfileFromAccountId, getBasicPresence, exchangeRefreshTokenForAuthTokens} = require('psn-api');
 
 
 //this is going to be changing until i set the refresh token
@@ -14,13 +14,15 @@ const { getProfileFromUserName,  exchangeCodeForAccessToken, exchangeNpssoForCod
 console.log("PSN mounted")
 
 
-const myNpsso = "1pbsm9GMo73G21Gs3ac4rii2tgS7EuUBbk7yWQMLeX2hY5t4ZE6NdbeP7N1sD00H";
+const myNpsso = "GGk7N6qHm2TdE2XXHoEsgOMJdC4XLpEvShisWQgjRTlH6sX7awyhy8O0vDpQLGnd";
 const Profiles = [];
 
 const run = async (userNpsso) =>{
   const accessCode = await exchangeNpssoForCode(userNpsso? userNpsso : myNpsso);
   console.log(accessCode)
   const authorization = await exchangeCodeForAccessToken(accessCode);
+  //if authorization is expired this will get us a new one so we dont have to do it again
+
   const personalAccount = await getProfileFromUserName(authorization, "me")
 
     //i dont want to send back their accound Id or npsso Id
@@ -110,6 +112,7 @@ const run = async (userNpsso) =>{
     const Profile = {onlineId, PFP, avatar, PSPlus, status, lastOnline, personalDetails, platform, trophySummary, currentGame, currentGameImage, PFP}
     Profiles.push(Profile) 
 }
+
 
 run()
 module.exports= run
