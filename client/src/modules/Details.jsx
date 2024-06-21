@@ -1,11 +1,9 @@
-//what to do finish howMany online function and 
-
-function Details ({personalData, friendData}) {
+ function Details ({personalData, friendData}) {
   //variables
   // const trophiesEarned = personalData.trophySummary[0].earnedTrophies
   const trophyLevel = personalData.trophySummary.level
   const onlineStatus = personalData.presences[0].onlineStatus
-
+  
   //trophies
   const platinumTrophies = personalData.trophySummary.earnedTrophies.platinum;
   const goldTrophies = personalData.trophySummary.earnedTrophies.gold;
@@ -110,4 +108,5 @@ function Details ({personalData, friendData}) {
   </div>
   )
 }
+
 export default Details

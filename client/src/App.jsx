@@ -1,14 +1,18 @@
+import { useEffect, useState } from 'react';
+// import {Banner, Details, PopupFriendCard, FriendsList, FriendsListFeatured, Navbar, PersonalLoginInstructions} from './modules'
+import Banner from './modules/Banner';
+import Details from './modules/Details';
+import PopupFriendCard from './modules/FriendCard';
+import FriendsList from './modules/FriendsList';
+import FriendsListFeatured from './modules/FriendsList-Featured';
+import Navbar from './modules/Navbar';
+import PersonalLoginInstructions from './modules/PersonalLoginInstructions';
 
-import {useEffect, useState}from 'react'
-import Navbar from './modules/Navbar'
-import Banner from './modules/Banner'
-import Details from './modules/Details'
-import FriendsListFeatured from './modules/FriendsList-Featured'
-import FriendsList from './modules/FriendsList'
-import gameData from '../../dummy-data'
-import PopupFriendCard from './modules/FriendCard'
-import PersonalLoginInstructions from './modules/PersonalLoginInstructions'
+import gameData from './data/dummy-data';
+
+
 // look here for optomization later: https://codedamn.com/news/reactjs/handle-async-functions-with-ease
+
 
 
 function App() {
@@ -21,7 +25,6 @@ function App() {
   const [data, setData] = useState(gameData[0]); //i need to have some sort of data in here before render for the sort to work properly
   const [personalData, setPersonalData] = useState(gameData[1].profile) 
 
-  const [sortedData, setSortedData]= useState(["loading"]);
   const [loginDisplay, setloginDisplay] = useState(true)  //when set to true login component will disapear
   // gonna need a loading section
   const [ContentDisplay, setContentDisplay] = useState(false) // when set to true content will appear

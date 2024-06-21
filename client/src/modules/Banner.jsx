@@ -1,8 +1,4 @@
-import React from "react";
-
 function Banner () {
-
-
   return (
     <div className="main-banner">
     <div className="main-banner__tint">

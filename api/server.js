@@ -38,7 +38,7 @@ app.post('/', (req, res, next) =>{
 
 
 
-const PSNJson = require("../playstation.js")
+const PSNJson = require("./playstation.js")
 
 //maybe async await here and then once everything is done have it redirect me to the /ps 
 async function getPlaystationData (req, res, next) {

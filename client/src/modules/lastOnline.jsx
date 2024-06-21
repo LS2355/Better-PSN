@@ -2,7 +2,8 @@
 import moment from "moment";
 
 
-function GetLastOnline ({lastOnline}) {
+function GetLastOnline (props) {
+  const {lastOnline} = props
 
     let currentDay = moment().format() 
   

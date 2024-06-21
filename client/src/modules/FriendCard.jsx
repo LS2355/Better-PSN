@@ -1,6 +1,4 @@
-//this is just going to be the freind popup cards
 import GetLastOnline from "./lastOnline";
-import React from 'react'
 
 function PopupFriendCard(props) {
 

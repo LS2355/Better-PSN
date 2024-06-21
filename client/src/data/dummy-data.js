@@ -678,7 +678,7 @@ const gameData =
       "currentGameImage": false
     },
     {
-      "onlineId": 'FckDaPolice247',
+      "onlineId": 'DaPolice247',
       "PFP": undefined,
       "avatar": 'http://static-resource.np.community.playstation.net/avatar/3RD/UP20461012H08_F67BCFEA4065616B1B05_L.png',
       "PSPlus": 0,
@@ -860,7 +860,7 @@ const gameData =
       "currentGameImage": false
     },
     {
-      "onlineId": 'ASS_FACE-30',
+      "onlineId": 'BASS_FACE-30',
       "PFP": undefined,
       "avatar": 'http://static-resource.np.community.playstation.net/avatar/SCEI/I0045.png',
       "PSPlus": 0,
