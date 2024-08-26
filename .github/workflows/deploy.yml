@@ -40,7 +40,7 @@ jobs:
         run: npm install
         working-directory: ./client
       - name: Build
-        run: cd ./client && npm run dev
+        run: cd ./client && npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
@@ -51,3 +51,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+
+        
