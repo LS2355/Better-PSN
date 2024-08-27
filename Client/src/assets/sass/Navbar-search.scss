@@ -1,0 +1,51 @@
+
+#search {
+    position: relative;
+    
+    input{
+        background-color: #27292a;
+        height: 46px;
+        border-radius: 23px;
+        border: none;
+        color: #666;
+        font-size: 14px;
+        padding: 0px 15px 0px 45px;
+    }
+}
+.search__results {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    margin-top: 1rem;
+    border-radius: 23px;
+    overflow: hidden ;
+    width: 236px ;
+}
+.search__card{
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    background-color: #1f2122;
+    padding: .5rem;
+
+    transition: all 600ms;
+
+    &:hover {
+        border-color: $color-1;
+    
+        .search__card-onlineID{
+        color: white;
+        }
+    }
+}
+.search__card-onlineID{
+    color: rgb(202, 202, 202);
+    margin-bottom: .25rem;
+    transition: all 200ms;
+}
+.search__card-PFP{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.hide{
+    display: none;
+}

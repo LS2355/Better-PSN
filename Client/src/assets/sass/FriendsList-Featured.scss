@@ -1,0 +1,80 @@
+#small-lable{
+    font-size: 20px;
+}
+
+.ps-plus{
+  width: 20px;
+  height: 20px;
+}
+
+
+.most-popular {
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #1f2122;
+  border-radius: 23px;
+
+  .main-button{
+    text-align: center;
+    margin-bottom: -53px;
+  }
+}
+
+.item {
+  background-color: #27292a;
+  padding: 30px 15px;
+  border-radius: 23px;
+  margin-bottom: 30px; 
+  overflow: hidden;
+  height: 90%;
+  position: relative;
+  transition: all 400ms;
+
+
+  img{
+    border-radius: 23px;    
+  }  
+  h4 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+  }
+  span {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 400;
+  }
+
+  &:hover{
+    background-color: #383838;
+    transform: scale(1.1);
+    border-radius: 35px;    
+  }
+}
+
+
+
+.featured-friends__online-status{
+  box-shadow:inset 1px 0px #27292a,inset -1px 0px #27292a, inset 0 -3px $online-status;
+}
+.featured-friends__offline-status{
+  box-shadow:inset 1px 0px #27292a,inset -1px 0px #27292a, inset 0 -3px $offline-status;
+}
+.featured-friends__other-status{
+  box-shadow:inset 1px 0px #27292a,inset -1px 0px #27292a, inset 0 -3px $other-status;
+}
+
+.featured-friends__primary{
+  color: white;
+  font-size: xx-large;
+}
+
+.featured-friends__PS-plus{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  transform: translate(-50,-50%);
+ 
+}

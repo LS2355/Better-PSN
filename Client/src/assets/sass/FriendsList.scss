@@ -1,0 +1,118 @@
+
+.other-friends {
+    border-radius: 23px;
+    padding: 30px 30px 0px 30px;
+    background-color: #1f2122;
+    margin-top: 60px;
+  }
+  .friendsList__item-wrapper{
+    position: relative;
+  }
+  
+  .friendsList__item {
+    position: relative;
+    border-bottom: 1px solid #27292a;
+    padding-bottom: 52px;
+    margin-bottom: 30px;
+  
+    overflow: hidden;
+    height: 135px;
+  }
+  
+  .friendsList__status{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+  .friendsList__expand-container{
+    display: flex;
+    justify-content: center;
+  
+    transform: translate(0, 50%);
+  }
+  .friendsList__primary{
+    color: white;
+    font-size: large;
+    transition: all 400ms;
+  
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-top: 5px;
+  }
+  .friendsList__secondary{
+    color: gray;
+    font-size: small;
+  }
+  
+  .friendslist__image{
+      max-width: 80px; 
+      border-radius: 23px;
+    float: left;
+    margin-right: 15px;
+  }
+  .friendsList__status-wrapper{
+    display: grid;
+    place-items: center;
+    padding-right: 10px;
+  }
+  .friendsList__wrapper :hover .friendsList__primary{
+    color:#e75e8d;
+  }
+  .friendsList__ps-plus{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+  }
+  
+  .details__status-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  #details__shadowbox{
+    box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.527);
+  }
+  
+  .details__status-online{
+    border: 1px solid $online-status;
+  }
+  
+  .details__status-offline{
+    border: 1px solid $offline-status;
+  }
+
+/* 
+---------------------------------------------
+media queries
+--------------------------------------------- 
+*/
+
+
+  @media (max-width: 992px){
+  
+    .friendsList__item{
+      height: auto;
+      justify-content: center;
+      text-align: center;
+    }
+    .friendslist__image{
+      float: none;
+    }
+    .friendsList__status{
+      margin-top: 20px;
+    }
+    
+  }
+  
+  @media (max-width: 768px ){
+    .friendsList__item{
+      height: 180px;
+    }
+    .friendsList__primary{
+      font-size: medium;
+    }
+    .friendsList__secondary{
+      font-size: small;
+    }
+  }

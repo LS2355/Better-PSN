@@ -1,0 +1,41 @@
+
+.main-banner {
+    background-image: url(https://www.escapistmagazine.com/wp-content/uploads/2022/04/unknown.jpg?resize=1024%2C341);
+    background-position: center center;
+    background-size: cover;
+    min-height: 380px;
+    border-radius: 23px;
+    
+    h4{
+        font-size: 45px;
+        text-transform: uppercase;
+        margin-bottom: 25px;        
+
+        em{
+            font-style: normal;
+            color: #ec6090;
+        }
+    }
+
+    h6{
+        font-size: 20px;
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+  }
+
+  .main-banner__tint{
+    background-color: #1a131d7c;
+    width: 100%;
+    height: 100%;
+    padding: 80px 60px;
+    border-radius: 23px;
+    transition: all 400ms;
+
+    z-index: 12;
+
+    &:hover{
+        background-color: rgba(0, 0, 0, 0);        
+    }
+  }
