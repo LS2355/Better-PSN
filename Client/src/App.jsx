@@ -182,13 +182,12 @@ function App() {
       <div className="login-section col-8">
         <div className="login-text col-12">
           <div className="login-text__title">Better PSN</div>
-          <div className="login-text__subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic </div>
+          <div className="login-text__subtext">view your PSN Friends Info and status, without having to go on your console.</div>
         </div>
         <div className='login-options col-12'>
           <div className="row">
-            <div className="login-option col-4" onClick={()=>handleLogin("personal")}>personalAccount</div> {/*when you click on this it will show you step by step instructions on how to use your own personal account */}
-            <div className="login-option col-4" onClick={()=>handleLogin("demo")}>demo account</div>  {/* when you clock on this it will fill template with data from the dummy account*/}
-            <div className="login-option col-4" onClick={()=>handleLogin("template")}>template</div>   {/* when you click on this it will fill all the info with dummy data i made up */}
+            <div className="login-option col-6" onClick={()=>handleLogin("personal")}>personalAccount</div> {/*when you click on this it will show you step by step instructions on how to use your own personal account */}
+            <div className="login-option col-6" id='tooltip-container' onClick={()=>handleLogin("template")}>template <span id='tooltip'>For Demo click this one</span></div>   {/* when you click on this it will fill all the info with dummy data i made up */}
 
           </div>
         </div>

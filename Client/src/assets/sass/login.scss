@@ -49,3 +49,40 @@
 
 
 
+#tooltip-container{
+    position: relative;
+    transition: all 0.4 cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+#tooltip {
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: auto;
+  padding: 0.3em 0.6em;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  background: var(--background);
+  z-index: -1;
+  border-radius: 8px;
+  scale: 1;
+  transform-origin: 0 0;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(190, 89, 123);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  visibility: visible;
+}
+
+
+
+#tooltip-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  color: white;
+  border-color: transparent;
+}
+
