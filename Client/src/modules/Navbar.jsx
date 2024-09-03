@@ -43,8 +43,8 @@ const filteredItems = useMemo(()=>{
                   <nav className="main-nav">
                       {/* Logo */}
                       <a href="index.html" className="logo">
-                          <img src="src/resources/better_PSN_logo.png" alt="Better-PSN icon" className="logoImg"/>
-                        <h1>Better PSN</h1>
+                          <img src="./better_PSN_logo.png" alt="Better-PSN icon" className="logoImg" style={{"aspect-ratio": 1 / 1}}/>
+                        <h1 id="betterPSN-Nav-Letters">Better PSN</h1>
                       </a>
 
 

@@ -127,7 +127,7 @@ function FriendTemplate(Props) {
           {friendsListBuild}
           {/* center div and make it go down a littl */}
           <div className="col-lg-12">
-            <div className="main-button friendsList__expand-container" onClick={()=>Props.setExpandList(!Props.expandList)}><a href="#sum">view more</a></div>
+            <div className="main-button friendsList__expand-container" onClick={()=>Props.setExpandList(!Props.expandList)}><a href="#sum">{Props.expandList ? <>view less</>: <>view more</>}</a></div>
           </div>
         </div>
       </div>

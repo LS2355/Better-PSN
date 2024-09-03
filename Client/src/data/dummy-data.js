@@ -2,28 +2,28 @@ const gameData =
 [
   [
     {
-      "onlineId": 'verminator732',
+      "onlineId": 'verminat32',
       "PFP": false,
       "avatar": 'http://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png',
       "PSPlus": 0,
       "status": 'online',
       "lastOnline": '2021-04-17T08:47:14Z',
-      "personalDetails": { firstName: 'Victor', lastName: 'Perez' },
+      "personalDetails": { firstName: 'Vicr', lastName: 'Salmen' },
       "platform": 'ps4',
       "trophySummary": { level: 1, progress: 0, earnedTrophies: [Object] },
       "currentGame":  "call of duty",
       "currentGameImage": "http://gs2-sec.ww.prod.dl.playstation.net/gs2-sec/appkgo/prod/CUSA23827_00/4/i_4b8104f0a2175faa23b4cba7f43121d310554b8d76bdbfd5b33a2379d20c0b7e/i/icon0.png"
     },
     {
-      "onlineId": 'HaramCh3ck',
+      "onlineId": 'HaramChck',
       "PFP": 'https://image.api.np.km.playstation.net/images/?format=png&w=440&h=440&image=https%3A%2F%2Fkfscdn.api.np.km.playstation.net%2F8186863710307349943%2F1677554056687.png&sign=3f07be81aa278f5108ba783f8c006d5b4e53a3bd',
       "avatar": 'http://static-resource.np.community.playstation.net/avatar/WWS_A/A0020.png',
       "PSPlus": 0,
       "status": 'offline',
       "lastOnline": undefined,
       "personalDetails": {
-        firstName: 'Jalen',
-        lastName: 'Raines',
+        firstName: 'Jamin',
+        lastName: 'plains',
         profilePictureUrls: [Array]
        },
       "platform": undefined,
@@ -38,7 +38,7 @@ const gameData =
       "PSPlus": 0,
       "status": 'offline',
       "lastOnline": '2023-09-14T16:30:34Z',
-      "personalDetails": { firstName: 'omar', lastName: 'o', profilePictureUrls: [Array] },
+      "personalDetails": { firstName: 'homie', lastName: 's', profilePictureUrls: [Array] },
       "platform": 'ps4',
       "trophySummary": { level: 21, progress: 0, earnedTrophies: [Object] },
       "currentGame": false,
@@ -65,9 +65,9 @@ const gameData =
       "status": 'offline',
       "lastOnline": '2021-11-25T07:08:10Z',
       "personalDetails": {
-        firstName: 'Raul',
-        middleName: 'D',
-        lastName: 'Rios',
+        firstName: 'Ral',
+        middleName: 'P',
+        lastName: 'Dios',
        profilePictureUrls: [Array]
       },
       "platform": 'ps4',
@@ -238,7 +238,7 @@ const gameData =
       "PSPlus": 0,
       "status": 'offline',
       "lastOnline": '2023-01-14T00:37:34Z',
-      "personalDetails": { firstName: 'jose', lastName: 'm' },
+      "personalDetails": { firstName: 'joses', lastName: 'em' },
       "platform": 'ps4',
       "trophySummary": { level: 24, progress: 0, earnedTrophies: [Object] },
       "currentGame": false,
