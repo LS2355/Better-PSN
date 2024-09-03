@@ -31,7 +31,7 @@
 
 ---
 <h3>PSN Friends</h3>
-  <img alt="image of PSN Friends" src="">
+  <img alt="image of PSN Friends" src="./ReadMe-imgs/friend-card.png" />
   <p>View - online status</p>
   <p>View - personal Info (if they share it)</p>
   <p>View - current activity (what they are playing)</p>
@@ -39,7 +39,7 @@
 
 ---
 <h3>How it works</h3>
-  <img alt="image of <featured section>" src="./">
+  <img alt="image of Personal login instructions" src="./ReadMe-imgs/personal-login-.png" />
   <p>All information is gathered from sony's public API</p>
   <p>your acount info is reached using a code you get from sony called NPSSO. (do not share this code it is the equivalent to your account password)</p>
   <p>all the information used is not stored. (I don't care about your info)</p>
