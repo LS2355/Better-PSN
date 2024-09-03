@@ -4,7 +4,8 @@
  <!-- view live site link -->
  <a href="https://ls2355.github.io/Better-PSN/">
   <!-- styleing is in the src url= https://custom-icon-badges.demolab.com/badge/ <text>-<color> ?style=<style> &logo=<logo>   -->
-   <img align="right" alt="My portfolio" title="My portfolio" src="https://custom-icon-badges.demolab.com/badge/-View_Live_site-purple?style=for-the-badge&logoColor=white&logo=portfolioe"/></a> 
+   <img align="right" alt="My portfolio" title="My portfolio" src="https://custom-icon-badges.demolab.com/badge/-View_Live_site-purple?style=for-the-badge&logoColor=white&logo=portfolioe"/>
+ </a> 
 <!-- for more info got to https://github.com/DenverCoder1/custom-icon-badges -->
 
 
